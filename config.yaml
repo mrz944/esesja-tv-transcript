@@ -1,0 +1,29 @@
+# esesja.tv Video Scraper and Transcriber Configuration
+
+scraping:
+  base_url: "https://esesja.tv/transmisje_z_obrad/1475/rada-dzielnicy-wlochy.htm"
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+  delay_between_requests: 2  # seconds between requests to be respectful
+  timeout: 30  # request timeout in seconds
+
+video:
+  delete_after_transcription: true
+  download_timeout: 3600  # seconds (1 hour)
+  quality: "best"  # or specific like "480p", "720p"
+  max_retries: 3
+
+transcription:
+  whisper_model: "base"  # tiny, base, small, medium, large
+  language: "pl"  # Polish language code
+  output_format: "txt"  # plain text format
+  device: "auto"  # auto, cpu, cuda
+
+storage:
+  videos_dir: "data/videos"
+  transcripts_dir: "data/transcripts"
+  progress_file: "data/progress.json"
+  logs_dir: "logs"
+
+processing:
+  max_concurrent_downloads: 2
+  chunk_size: 8192  # bytes for file downloads

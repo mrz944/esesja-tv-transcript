@@ -1,0 +1,22 @@
+# Web scraping and HTTP requests
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Video downloading and processing
+yt-dlp>=2023.7.6
+ffmpeg-python>=0.2.0
+
+# Audio transcription
+openai-whisper>=20231117
+
+# Configuration and data handling
+PyYAML>=6.0
+tqdm>=4.65.0
+
+# Utilities
+colorama>=0.4.6
+python-dateutil>=2.8.2
+
+# Optional: For better performance
+torch>=2.0.0
