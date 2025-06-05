@@ -115,7 +115,7 @@ python main.py --failed
 
 ```
 ╔══════════════════════════════════════════════════════════════╗
-║                    esesja.tv Video Scraper                  ║
+║                    esesja.tv Video Scraper                   ║
 ║                   and Transcript Generator                   ║
 ╚══════════════════════════════════════════════════════════════╝
 

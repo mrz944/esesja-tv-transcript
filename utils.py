@@ -236,7 +236,7 @@ def print_banner():
     """Print application banner."""
     banner = f"""
 {Fore.CYAN}╔══════════════════════════════════════════════════════════════╗
-║                    esesja.tv Video Scraper                  ║
+║                    esesja.tv Video Scraper                   ║
 ║                   and Transcript Generator                   ║
 ╚══════════════════════════════════════════════════════════════╝{Style.RESET_ALL}
 """
